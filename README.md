@@ -6,15 +6,15 @@
 .
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
-├── notebook                  ノートブック
+└── notebook                  jupyter notebook
 ```
 
 ## 環境構築
-### Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/PyCaret）
+Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/PyCaret）
 ```
 cd Desktop/PyCaret
 ```
-### Dockerによる環境構築
+Dockerによる環境構築
 ```
 docker build .
 ```
