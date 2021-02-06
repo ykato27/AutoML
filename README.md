@@ -5,25 +5,26 @@
 ```
 .
 ├── README.md                 READMEファイル
+├── .dockerignore        
 ├── Dockerfile                Dockerファイル
+├── docker-compose.yml
 └── notebook                  jupyter notebook
 ```
 
 ## 環境構築
-Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/PyCaret）
+
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/PyCaret）
 ```
 cd Desktop/PyCaret
 ```
-Dockerによる環境構築
+
+* Dockerによる環境構築（フォルダをマウント：Desktop/PyCaret）
 ```
-docker build .
+docker-compose up --build
 ```
-docker run実行（対象フォルダをマウントする／例：Desktop/PyCaret）
-```
-docker run -p 8888:8888 -v ~/Desktop/PyCaret/:/work --name Regression_Models <docker image>
-```
-ブラウザーを立ち上げてlocalhost:8888へアクセス
-workフォルダ内が対象フォルダにマウントされている
+
+* ブラウザーを立ち上げてlocalhost:8888へアクセス
+* ローカルフォルダがマウントされている
 
 ## 動作環境
 マシンスペック（Mac)
