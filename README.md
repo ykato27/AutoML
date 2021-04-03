@@ -1,5 +1,5 @@
-# PyCaret
-* PyCaretを活用した回帰モデル全般のプログラム
+# AutoML
+* AutoMLを活用した回帰モデル全般のプログラム
 
 ## リポジトリ構成
 ```
@@ -8,23 +8,28 @@
 ├── .dockerignore        
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
+├── requirements.txt          requirementsファイル
 └── notebook                  jupyter notebook
 ```
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/PyCaret）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/AutoML）
 ```
-cd Desktop/PyCaret
+cd Desktop/AutoML
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/PyCaret）
+* Dockerによる環境構築（フォルダをマウント：Desktop/AutoML）
 ```
 docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
 * ローカルフォルダがマウントされている
+
+## jupyter notebook説明
+* AutoML-PyCaret-RegressionModels.ipynb : PyCaretを活用したAutoMLのnotebook
+* AutoML-TPOT-RegressionModels.ipynb : TPOTを活用したAutoMLのnotebook
 
 ## 動作環境
 マシンスペック（Mac)
