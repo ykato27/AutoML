@@ -28,8 +28,8 @@ docker-compose up --build
 * ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
-* AutoML-PyCaret-RegressionModels.ipynb : PyCaretを活用したAutoMLのnotebook
-* AutoML-TPOT-RegressionModels.ipynb : TPOTを活用したAutoMLのnotebook
+* [AutoML-PyCaret-RegressionModels.ipynb](https://github.com/ykato27/AutoML/blob/main/notebook/AutoML-PyCaret-RegressionModels.ipynb) : PyCaretを活用したAutoMLのnotebook
+* [AutoML-TPOT-RegressionModels.ipynb](https://github.com/ykato27/AutoML/blob/main/notebook/AutoML-TPOT-RegressionModels.ipynb) : TPOTを活用したAutoMLのnotebook
 
 ## 動作環境
 マシンスペック（Mac)
