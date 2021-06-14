@@ -17,3 +17,4 @@ seaborn==0.11.1
 pycaret==2.2.3
 TPOT==0.11.7
 torch==1.8.1
+nb_black
