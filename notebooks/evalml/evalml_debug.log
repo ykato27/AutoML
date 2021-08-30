@@ -1,0 +1,572 @@
+08/30/2021 08:22:40 AM - INFO - automl_search.py: Generating pipelines to search over...
+08/30/2021 08:22:40 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:40 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - automl_search.py: allowed_estimators set to ['Decision Tree Regressor', 'Extra Trees Regressor', 'XGBoost Regressor', 'CatBoost Regressor', 'Random Forest Regressor', 'LightGBM Regressor', 'Linear Regressor', 'Elastic Net Regressor']
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:42 AM - INFO - automl_search.py: 8 pipelines ready for search.
+08/30/2021 08:22:42 AM - DEBUG - automl_search.py: allowed_pipelines set to ['Decision Tree Regressor w/ Imputer', 'Extra Trees Regressor w/ Imputer', 'XGBoost Regressor w/ Imputer', 'CatBoost Regressor w/ Imputer', 'Random Forest Regressor w/ Imputer', 'LightGBM Regressor w/ Imputer', 'Linear Regressor w/ Imputer + Standard Scaler', 'Elastic Net Regressor w/ Imputer + Standard Scaler']
+08/30/2021 08:22:42 AM - DEBUG - automl_search.py: allowed_model_families set to [ModelFamily.EXTRA_TREES, ModelFamily.LIGHTGBM, ModelFamily.XGBOOST, ModelFamily.DECISION_TREE, ModelFamily.RANDOM_FOREST, ModelFamily.LINEAR_MODEL, ModelFamily.CATBOOST]
+08/30/2021 08:22:42 AM - INFO - logger.py: 
+*****************************
+08/30/2021 08:22:42 AM - INFO - logger.py: * Beginning pipeline search *
+08/30/2021 08:22:42 AM - INFO - logger.py: *****************************
+08/30/2021 08:22:42 AM - INFO - logger.py: 
+08/30/2021 08:22:42 AM - INFO - automl_search.py: Optimizing for MAE. 
+08/30/2021 08:22:42 AM - INFO - automl_search.py: Lower score is better.
+
+08/30/2021 08:22:42 AM - INFO - automl_search.py: Using SequentialEngine to train and score pipelines.
+08/30/2021 08:22:42 AM - INFO - automl_search.py: Will stop searching for new pipelines after 120 seconds.
+
+08/30/2021 08:22:42 AM - INFO - automl_search.py: Allowed model families: extra_trees, lightgbm, xgboost, decision_tree, random_forest, linear_model, catboost
+
+08/30/2021 08:22:44 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:44 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:46 AM - DEBUG - gen_utils.py: Could not import class PolynomialDetrender in get_importable_subclasses
+08/30/2021 08:22:46 AM - DEBUG - gen_utils.py: Could not import class ARIMARegressor in get_importable_subclasses
+08/30/2021 08:22:46 AM - DEBUG - gen_utils.py: Could not import class ProphetRegressor in get_importable_subclasses
+08/30/2021 08:22:46 AM - DEBUG - gen_utils.py: Could not import class PolynomialDetrender in get_importable_subclasses
+08/30/2021 08:22:46 AM - INFO - automl_search.py: Evaluating Baseline Pipeline: Mean Baseline Regression Pipeline
+08/30/2021 08:22:46 AM - INFO - engine_base.py: Mean Baseline Regression Pipeline:
+08/30/2021 08:22:46 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 5.432
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 6.887
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:22:46 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 6.632
+08/30/2021 08:22:46 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 6.317
+08/30/2021 08:22:46 AM - INFO - logger.py: 
+*****************************
+08/30/2021 08:22:46 AM - INFO - logger.py: * Evaluating Batch Number 1 *
+08/30/2021 08:22:46 AM - INFO - logger.py: *****************************
+08/30/2021 08:22:46 AM - INFO - logger.py: 
+08/30/2021 08:22:49 AM - INFO - engine_base.py: Linear Regressor w/ Imputer + Standard Scaler:
+08/30/2021 08:22:49 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 3.172
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 3.150
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:22:49 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 3.430
+08/30/2021 08:22:49 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 3.251
+08/30/2021 08:22:51 AM - INFO - engine_base.py: Decision Tree Regressor w/ Imputer:
+08/30/2021 08:22:51 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.782
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.965
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:22:51 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.782
+08/30/2021 08:22:51 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.843
+08/30/2021 08:22:55 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/30/2021 08:22:55 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.169
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.186
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:22:55 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.566
+08/30/2021 08:22:55 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.307
+08/30/2021 08:22:57 AM - INFO - engine_base.py: LightGBM Regressor w/ Imputer:
+08/30/2021 08:22:57 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.428
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.523
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:22:57 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 3.076
+08/30/2021 08:22:57 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.675
+08/30/2021 08:22:59 AM - INFO - engine_base.py: Elastic Net Regressor w/ Imputer + Standard Scaler:
+08/30/2021 08:22:59 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 3.171
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 3.150
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:22:59 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 3.430
+08/30/2021 08:22:59 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 3.250
+08/30/2021 08:23:02 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/30/2021 08:23:02 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 1.986
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.084
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:02 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.328
+08/30/2021 08:23:02 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.133
+08/30/2021 08:23:06 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/30/2021 08:23:06 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.126
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.104
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:06 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.493
+08/30/2021 08:23:06 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.241
+08/30/2021 08:23:07 AM - INFO - engine_base.py: CatBoost Regressor w/ Imputer:
+08/30/2021 08:23:07 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 4.595
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 5.737
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:07 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 5.651
+08/30/2021 08:23:07 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 5.328
+08/30/2021 08:23:08 AM - INFO - logger.py: 
+*****************************
+08/30/2021 08:23:08 AM - INFO - logger.py: * Evaluating Batch Number 2 *
+08/30/2021 08:23:08 AM - INFO - logger.py: *****************************
+08/30/2021 08:23:08 AM - INFO - logger.py: 
+08/30/2021 08:23:10 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/30/2021 08:23:10 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.400
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.440
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:10 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.620
+08/30/2021 08:23:10 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.487
+08/30/2021 08:23:15 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/30/2021 08:23:15 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.350
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.138
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:15 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.458
+08/30/2021 08:23:15 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.315
+08/30/2021 08:23:19 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/30/2021 08:23:19 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.595
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:19 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.831
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:20 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.711
+08/30/2021 08:23:20 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.712
+08/30/2021 08:23:25 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/30/2021 08:23:25 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.023
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.140
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:25 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.391
+08/30/2021 08:23:25 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.184
+08/30/2021 08:23:29 AM - INFO - engine_base.py: XGBoost Regressor w/ Imputer:
+08/30/2021 08:23:29 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.009
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.249
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:29 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.426
+08/30/2021 08:23:29 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.228
+08/30/2021 08:23:30 AM - INFO - logger.py: 
+*****************************
+08/30/2021 08:23:30 AM - INFO - logger.py: * Evaluating Batch Number 3 *
+08/30/2021 08:23:30 AM - INFO - logger.py: *****************************
+08/30/2021 08:23:30 AM - INFO - logger.py: 
+08/30/2021 08:23:36 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/30/2021 08:23:36 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.720
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 3.258
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:36 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 3.503
+08/30/2021 08:23:36 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 3.161
+08/30/2021 08:23:47 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/30/2021 08:23:47 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.353
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.564
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:47 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.936
+08/30/2021 08:23:47 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.618
+08/30/2021 08:23:50 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/30/2021 08:23:50 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.005
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.069
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:23:50 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.416
+08/30/2021 08:23:50 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.163
+08/30/2021 08:23:59 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/30/2021 08:23:59 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:23:59 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:23:59 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:23:59 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:23:59 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 1.984
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.016
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:24:00 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.332
+08/30/2021 08:24:00 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.110
+08/30/2021 08:24:01 AM - INFO - engine_base.py: Extra Trees Regressor w/ Imputer:
+08/30/2021 08:24:01 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.148
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.193
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:24:01 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.683
+08/30/2021 08:24:01 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.342
+08/30/2021 08:24:02 AM - INFO - logger.py: 
+*****************************
+08/30/2021 08:24:02 AM - INFO - logger.py: * Evaluating Batch Number 4 *
+08/30/2021 08:24:02 AM - INFO - logger.py: *****************************
+08/30/2021 08:24:02 AM - INFO - logger.py: 
+08/30/2021 08:24:11 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/30/2021 08:24:11 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.068
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.099
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:24:11 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.470
+08/30/2021 08:24:11 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.212
+08/30/2021 08:24:22 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/30/2021 08:24:22 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.089
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.085
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:24:23 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.483
+08/30/2021 08:24:23 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.219
+08/30/2021 08:24:27 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/30/2021 08:24:27 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.080
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.141
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:24:27 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.470
+08/30/2021 08:24:27 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.230
+08/30/2021 08:24:42 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/30/2021 08:24:42 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.073
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.109
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:24:42 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.472
+08/30/2021 08:24:42 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.218
+08/30/2021 08:25:04 AM - INFO - engine_base.py: Random Forest Regressor w/ Imputer:
+08/30/2021 08:25:04 AM - INFO - engine_base.py: 	Starting cross validation
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 		Training and scoring on fold 0
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 0: starting training
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 0: finished training
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 0: Scoring trained pipeline
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 0: MAE score: 2.064
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 		Training and scoring on fold 1
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 1: starting training
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 1: finished training
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 1: Scoring trained pipeline
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 1: MAE score: 2.067
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 		Training and scoring on fold 2
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 2: starting training
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 2: finished training
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 2: Scoring trained pipeline
+08/30/2021 08:25:04 AM - DEBUG - engine_base.py: 			Fold 2: MAE score: 2.475
+08/30/2021 08:25:04 AM - INFO - engine_base.py: 	Finished cross validation - mean MAE: 2.202
+08/30/2021 08:25:05 AM - INFO - automl_search.py: 
+Search finished after 02:20            
+08/30/2021 08:25:08 AM - INFO - automl_search.py: Best pipeline: Extra Trees Regressor w/ Imputer
+08/30/2021 08:25:08 AM - INFO - automl_search.py: Best pipeline MAE: 2.110322
+08/30/2021 08:25:09 AM - INFO - logger.py: 
+************************************
+08/30/2021 08:25:09 AM - INFO - logger.py: * Extra Trees Regressor w/ Imputer *
+08/30/2021 08:25:09 AM - INFO - logger.py: ************************************
+08/30/2021 08:25:09 AM - INFO - logger.py: 
+08/30/2021 08:25:09 AM - INFO - pipeline_base.py: Problem Type: regression
+08/30/2021 08:25:09 AM - INFO - pipeline_base.py: Model Family: Extra Trees
+08/30/2021 08:25:09 AM - INFO - logger.py: 
+08/30/2021 08:25:09 AM - INFO - logger.py: Pipeline Steps
+08/30/2021 08:25:09 AM - INFO - logger.py: ==============
+08/30/2021 08:25:09 AM - INFO - component_graph.py: 1. Imputer
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * categorical_impute_strategy : most_frequent
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * numeric_impute_strategy : most_frequent
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * categorical_fill_value : None
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * numeric_fill_value : None
+08/30/2021 08:25:09 AM - INFO - component_graph.py: 2. Extra Trees Regressor
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * n_estimators : 584
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * max_features : auto
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * max_depth : 8
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * min_samples_split : 2
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * min_weight_fraction_leaf : 0.0
+08/30/2021 08:25:09 AM - INFO - component_base.py: 	 * n_jobs : -1
+08/30/2021 08:25:09 AM - INFO - logger.py: 
+08/30/2021 08:25:09 AM - INFO - logger.py: Training
+08/30/2021 08:25:09 AM - INFO - logger.py: ========
+08/30/2021 08:25:09 AM - INFO - automl_search.py: Training for regression problems.
+08/30/2021 08:25:09 AM - INFO - automl_search.py: Total training time (including CV): 8.8 seconds
+08/30/2021 08:25:09 AM - INFO - logger.py: 
+08/30/2021 08:25:09 AM - INFO - logger.py: Cross Validation
+08/30/2021 08:25:09 AM - INFO - logger.py: ----------------
+08/30/2021 08:25:10 AM - INFO - automl_search.py:               MAE    R2    MSE # Training # Validation
+0           1.984 0.858  6.968        269          135
+1           2.016 0.910  7.948        269          135
+2           2.332 0.832 15.494        270          134
+mean        2.110 0.867 10.137          -            -
+std         0.192 0.040  4.666          -            -
+coef of var 0.091 0.046  0.460          -            -
