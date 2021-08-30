@@ -1,0 +1,1695 @@
+{
+    "fit_level": "finished",
+    "time_controller": {
+        "total_time_limit": null,
+        "model_time_limit": null,
+        "steps": [
+            "simple_algorithms",
+            "default_algorithms",
+            "ensemble",
+            "stack",
+            "ensemble_stacked"
+        ],
+        "algorithms": [
+            "Random Forest",
+            "Extra Trees",
+            "LightGBM",
+            "Xgboost",
+            "CatBoost",
+            "Neural Network"
+        ],
+        "spend": [
+            {
+                "model_name": "prepare_data",
+                "model_type": "prepare_data",
+                "fit_level": "prepare_data",
+                "train_time": 0.6084554195404053
+            },
+            {
+                "model_name": "1_Optuna_LightGBM",
+                "model_type": "LightGBM",
+                "fit_level": "default_algorithms",
+                "train_time": 298.8460397720337
+            },
+            {
+                "model_name": "2_Optuna_Xgboost",
+                "model_type": "Xgboost",
+                "fit_level": "default_algorithms",
+                "train_time": 37.72698712348938
+            },
+            {
+                "model_name": "3_Optuna_CatBoost",
+                "model_type": "CatBoost",
+                "fit_level": "default_algorithms",
+                "train_time": 11.565735101699829
+            },
+            {
+                "model_name": "4_Optuna_NeuralNetwork",
+                "model_type": "Neural Network",
+                "fit_level": "default_algorithms",
+                "train_time": 16.244901418685913
+            },
+            {
+                "model_name": "5_Optuna_RandomForest",
+                "model_type": "Random Forest",
+                "fit_level": "default_algorithms",
+                "train_time": 27.83467149734497
+            },
+            {
+                "model_name": "6_Optuna_ExtraTrees",
+                "model_type": "Extra Trees",
+                "fit_level": "default_algorithms",
+                "train_time": 25.828556060791016
+            },
+            {
+                "model_name": "Ensemble",
+                "model_type": "Ensemble",
+                "fit_level": "ensemble",
+                "train_time": 0.9358956813812256
+            },
+            {
+                "model_name": "3_Optuna_CatBoost_Stacked",
+                "model_type": "CatBoost",
+                "fit_level": "stack",
+                "train_time": 11.8187575340271
+            },
+            {
+                "model_name": "1_Optuna_LightGBM_Stacked",
+                "model_type": "LightGBM",
+                "fit_level": "stack",
+                "train_time": 289.5349314212799
+            },
+            {
+                "model_name": "2_Optuna_Xgboost_Stacked",
+                "model_type": "Xgboost",
+                "fit_level": "stack",
+                "train_time": 43.940340757369995
+            },
+            {
+                "model_name": "4_Optuna_NeuralNetwork_Stacked",
+                "model_type": "Neural Network",
+                "fit_level": "stack",
+                "train_time": 21.641372442245483
+            },
+            {
+                "model_name": "6_Optuna_ExtraTrees_Stacked",
+                "model_type": "Extra Trees",
+                "fit_level": "stack",
+                "train_time": 18.025128602981567
+            },
+            {
+                "model_name": "5_Optuna_RandomForest_Stacked",
+                "model_type": "Random Forest",
+                "fit_level": "stack",
+                "train_time": 17.596760272979736
+            },
+            {
+                "model_name": "Ensemble_Stacked",
+                "model_type": "Ensemble",
+                "fit_level": "ensemble_stacked",
+                "train_time": 1.781662940979004
+            }
+        ],
+        "is_hill_climbing": false,
+        "is_stacking": true
+    },
+    "all_params": {
+        "default_algorithms": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "objective": "regression",
+                    "num_leaves": 486,
+                    "learning_rate": 0.0125,
+                    "feature_fraction": 0.7499668770201643,
+                    "bagging_fraction": 0.8164900229317867,
+                    "min_data_in_leaf": 5,
+                    "seed": 10,
+                    "metric": "rmse",
+                    "custom_eval_metric_name": null,
+                    "lambda_l1": 0.006925639180901979,
+                    "lambda_l2": 0.0004500555598864005,
+                    "bagging_freq": 1,
+                    "extra_trees": false,
+                    "num_boost_round": 1000,
+                    "early_stopping_rounds": 50,
+                    "cat_feature": [],
+                    "feature_pre_filter": false,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "1_Optuna_LightGBM",
+                "status": "trained",
+                "final_loss": 3.084995868425189,
+                "train_time": 301.1470651626587,
+                "data_type": "original",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "objective": "reg:squarederror",
+                    "eta": 0.0125,
+                    "max_depth": 8,
+                    "min_child_weight": 2,
+                    "subsample": 0.47732203253202954,
+                    "colsample_bytree": 0.9439467767716354,
+                    "seed": 10,
+                    "eval_metric": "rmse",
+                    "lambda": 0.00789742283515979,
+                    "alpha": 3.266185187119584e-06,
+                    "max_rounds": 1000,
+                    "early_stopping_rounds": 50,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "2_Optuna_Xgboost",
+                "status": "trained",
+                "final_loss": 3.0866921285310345,
+                "train_time": 39.860389947891235,
+                "data_type": "original",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "learning_rate": 0.2,
+                    "depth": 4,
+                    "rsm": 0.6026340876188655,
+                    "loss_function": "RMSE",
+                    "seed": 10,
+                    "eval_metric": "RMSE",
+                    "l2_leaf_reg": 1.5395367389239338,
+                    "random_strength": 0.5355597963917901,
+                    "min_data_in_leaf": 43,
+                    "num_boost_round": 1000,
+                    "early_stopping_rounds": 50,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "3_Optuna_CatBoost",
+                "status": "trained",
+                "final_loss": 2.961985304777326,
+                "train_time": 13.638066291809082,
+                "data_type": "original",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "CRIM": [
+                            "scale_normal"
+                        ],
+                        "ZN": [
+                            "scale_normal"
+                        ],
+                        "INDUS": [
+                            "scale_normal"
+                        ],
+                        "NOX": [
+                            "scale_normal"
+                        ],
+                        "RM": [
+                            "scale_normal"
+                        ],
+                        "AGE": [
+                            "scale_normal"
+                        ],
+                        "DIS": [
+                            "scale_normal"
+                        ],
+                        "RAD": [
+                            "scale_normal"
+                        ],
+                        "TAX": [
+                            "scale_normal"
+                        ],
+                        "PTRATIO": [
+                            "scale_normal"
+                        ],
+                        "B": [
+                            "scale_normal"
+                        ],
+                        "LSTAT": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "dense_1_size": 91,
+                    "dense_2_size": 65,
+                    "learning_rate": 0.005,
+                    "seed": 4,
+                    "learning_rate_type": "adaptive",
+                    "alpha": 2.3192732222893343e-07,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "4_Optuna_NeuralNetwork",
+                "status": "trained",
+                "final_loss": 3.5084487652135032,
+                "train_time": 18.114081144332886,
+                "data_type": "original",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "mse",
+                    "max_features": 0.42409351770377424,
+                    "min_samples_split": 2,
+                    "max_depth": 28,
+                    "seed": 10,
+                    "eval_metric_name": "rmse",
+                    "min_samples_leaf": 13,
+                    "max_steps": 10,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "5_Optuna_RandomForest",
+                "status": "trained",
+                "final_loss": 4.034310493652038,
+                "train_time": 30.161449432373047,
+                "data_type": "original",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Extra Trees",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "mse",
+                    "max_features": 0.8511688485675506,
+                    "min_samples_split": 43,
+                    "max_depth": 28,
+                    "seed": 10,
+                    "eval_metric_name": "rmse",
+                    "min_samples_leaf": 8,
+                    "max_steps": 10,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "6_Optuna_ExtraTrees",
+                "status": "trained",
+                "final_loss": 3.9503968557819196,
+                "train_time": 28.16502618789673,
+                "data_type": "original",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600
+            }
+        ],
+        "ensemble": [
+            {
+                "model_type": "ensemble",
+                "is_stacked": false,
+                "name": "Ensemble",
+                "status": "trained",
+                "final_loss": 2.9122400130362727,
+                "train_time": 0.9358956813812256
+            }
+        ],
+        "stack": [
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X_stacked.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "CatBoost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "learning_rate": 0.2,
+                    "depth": 4,
+                    "rsm": 0.6026340876188655,
+                    "loss_function": "RMSE",
+                    "seed": 10,
+                    "eval_metric": "RMSE",
+                    "l2_leaf_reg": 1.5395367389239338,
+                    "random_strength": 0.5355597963917901,
+                    "min_data_in_leaf": 43,
+                    "num_boost_round": 1000,
+                    "early_stopping_rounds": 50,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "3_Optuna_CatBoost_Stacked",
+                "status": "trained",
+                "final_loss": 3.29302824335373,
+                "train_time": 13.981110572814941,
+                "data_type": "original_stacked",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600,
+                "is_stacked": true
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X_stacked.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "LightGBM",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "objective": "regression",
+                    "num_leaves": 486,
+                    "learning_rate": 0.0125,
+                    "feature_fraction": 0.7499668770201643,
+                    "bagging_fraction": 0.8164900229317867,
+                    "min_data_in_leaf": 5,
+                    "seed": 10,
+                    "metric": "rmse",
+                    "custom_eval_metric_name": null,
+                    "lambda_l1": 0.006925639180901979,
+                    "lambda_l2": 0.0004500555598864005,
+                    "bagging_freq": 1,
+                    "extra_trees": false,
+                    "num_boost_round": 1000,
+                    "early_stopping_rounds": 50,
+                    "cat_feature": [],
+                    "feature_pre_filter": false,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "1_Optuna_LightGBM_Stacked",
+                "status": "trained",
+                "final_loss": 3.1186645875105277,
+                "train_time": 292.2693157196045,
+                "data_type": "original_stacked",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600,
+                "is_stacked": true
+            },
+            {
+                "additional": {
+                    "max_rounds": 10000,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X_stacked.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Xgboost",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "objective": "reg:squarederror",
+                    "eta": 0.0125,
+                    "max_depth": 8,
+                    "min_child_weight": 2,
+                    "subsample": 0.47732203253202954,
+                    "colsample_bytree": 0.9439467767716354,
+                    "seed": 10,
+                    "eval_metric": "rmse",
+                    "lambda": 0.00789742283515979,
+                    "alpha": 3.266185187119584e-06,
+                    "max_rounds": 1000,
+                    "early_stopping_rounds": 50,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "2_Optuna_Xgboost_Stacked",
+                "status": "trained",
+                "final_loss": 3.18737956421342,
+                "train_time": 46.05700206756592,
+                "data_type": "original_stacked",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600,
+                "is_stacked": true
+            },
+            {
+                "additional": {
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {
+                        "CRIM": [
+                            "scale_normal"
+                        ],
+                        "ZN": [
+                            "scale_normal"
+                        ],
+                        "INDUS": [
+                            "scale_normal"
+                        ],
+                        "NOX": [
+                            "scale_normal"
+                        ],
+                        "RM": [
+                            "scale_normal"
+                        ],
+                        "AGE": [
+                            "scale_normal"
+                        ],
+                        "DIS": [
+                            "scale_normal"
+                        ],
+                        "RAD": [
+                            "scale_normal"
+                        ],
+                        "TAX": [
+                            "scale_normal"
+                        ],
+                        "PTRATIO": [
+                            "scale_normal"
+                        ],
+                        "B": [
+                            "scale_normal"
+                        ],
+                        "LSTAT": [
+                            "scale_normal"
+                        ]
+                    },
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X_stacked.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Neural Network",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "dense_1_size": 91,
+                    "dense_2_size": 65,
+                    "learning_rate": 0.005,
+                    "seed": 4,
+                    "learning_rate_type": "adaptive",
+                    "alpha": 2.3192732222893343e-07,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "4_Optuna_NeuralNetwork_Stacked",
+                "status": "trained",
+                "final_loss": 4.021280224895077,
+                "train_time": 23.19679307937622,
+                "data_type": "original_stacked",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600,
+                "is_stacked": true
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X_stacked.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Extra Trees",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "mse",
+                    "max_features": 0.8511688485675506,
+                    "min_samples_split": 43,
+                    "max_depth": 28,
+                    "seed": 10,
+                    "eval_metric_name": "rmse",
+                    "min_samples_leaf": 8,
+                    "max_steps": 10,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "6_Optuna_ExtraTrees_Stacked",
+                "status": "trained",
+                "final_loss": 2.9678975047443568,
+                "train_time": 22.968514442443848,
+                "data_type": "original_stacked",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600,
+                "is_stacked": true
+            },
+            {
+                "additional": {
+                    "trees_in_step": 100,
+                    "train_cant_improve_limit": 1,
+                    "min_steps": 1,
+                    "max_steps": 50,
+                    "early_stopping_rounds": 50,
+                    "max_rows_limit": null,
+                    "max_cols_limit": null
+                },
+                "preprocessing": {
+                    "columns_preprocessing": {},
+                    "target_preprocessing": [
+                        "na_exclude",
+                        "scale_normal"
+                    ],
+                    "ml_task": "regression"
+                },
+                "validation_strategy": {
+                    "validation_type": "kfold",
+                    "k_folds": 10,
+                    "shuffle": true,
+                    "X_path": "AutoML_4/X_stacked.data",
+                    "y_path": "AutoML_4/y.data",
+                    "results_path": "AutoML_4"
+                },
+                "learner": {
+                    "model_type": "Random Forest",
+                    "ml_task": "regression",
+                    "n_jobs": -1,
+                    "criterion": "mse",
+                    "max_features": 0.42409351770377424,
+                    "min_samples_split": 2,
+                    "max_depth": 28,
+                    "seed": 10,
+                    "eval_metric_name": "rmse",
+                    "min_samples_leaf": 13,
+                    "max_steps": 10,
+                    "explain_level": 0
+                },
+                "automl_random_state": 10,
+                "ml_task": "regression",
+                "explain_level": 0,
+                "name": "5_Optuna_RandomForest_Stacked",
+                "status": "trained",
+                "final_loss": 3.033101281115607,
+                "train_time": 18.898102283477783,
+                "data_type": "original_stacked",
+                "optuna_time_budget": 120,
+                "optuna_init_params": {
+                    "original_LightGBM": {
+                        "learning_rate": 0.0125,
+                        "num_leaves": 486,
+                        "lambda_l1": 0.006925639180901979,
+                        "lambda_l2": 0.0004500555598864005,
+                        "feature_fraction": 0.7499668770201643,
+                        "bagging_fraction": 0.8164900229317867,
+                        "bagging_freq": 1,
+                        "min_data_in_leaf": 5,
+                        "extra_trees": false,
+                        "metric": "rmse",
+                        "custom_eval_metric_name": null,
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "cat_feature": [],
+                        "feature_pre_filter": false,
+                        "seed": 10
+                    },
+                    "original_Xgboost": {
+                        "eta": 0.0125,
+                        "max_depth": 8,
+                        "lambda": 0.00789742283515979,
+                        "alpha": 3.266185187119584e-06,
+                        "colsample_bytree": 0.9439467767716354,
+                        "subsample": 0.47732203253202954,
+                        "min_child_weight": 2,
+                        "objective": "reg:squarederror",
+                        "eval_metric": "rmse",
+                        "max_rounds": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_CatBoost": {
+                        "learning_rate": 0.2,
+                        "depth": 4,
+                        "l2_leaf_reg": 1.5395367389239338,
+                        "random_strength": 0.5355597963917901,
+                        "rsm": 0.6026340876188655,
+                        "min_data_in_leaf": 43,
+                        "eval_metric": "RMSE",
+                        "num_boost_round": 1000,
+                        "early_stopping_rounds": 50,
+                        "seed": 10
+                    },
+                    "original_Neural Network": {
+                        "dense_1_size": 91,
+                        "dense_2_size": 65,
+                        "learning_rate": 0.005,
+                        "learning_rate_type": "adaptive",
+                        "alpha": 2.3192732222893343e-07
+                    },
+                    "original_Random Forest": {
+                        "max_depth": 28,
+                        "min_samples_split": 2,
+                        "min_samples_leaf": 13,
+                        "max_features": 0.42409351770377424,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    },
+                    "original_Extra Trees": {
+                        "max_depth": 28,
+                        "min_samples_split": 43,
+                        "min_samples_leaf": 8,
+                        "max_features": 0.8511688485675506,
+                        "max_steps": 10,
+                        "seed": 10,
+                        "eval_metric_name": "rmse"
+                    }
+                },
+                "optuna_verbose": true,
+                "max_time_for_learner": 3600,
+                "is_stacked": true
+            }
+        ],
+        "ensemble_stacked": [
+            {
+                "model_type": "ensemble",
+                "is_stacked": true,
+                "name": "Ensemble_Stacked",
+                "status": "trained",
+                "final_loss": 2.8874824569024184,
+                "train_time": 1.781662940979004
+            }
+        ]
+    },
+    "adjust_validation": false
+}

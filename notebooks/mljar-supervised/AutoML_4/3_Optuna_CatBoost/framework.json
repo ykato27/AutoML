@@ -1,0 +1,653 @@
+{
+    "uid": "212eb2c1-8c7e-4b75-96ea-df77d3323fda",
+    "name": "3_Optuna_CatBoost",
+    "preprocessing": [
+        {
+            "scale_y": {
+                "scale": [
+                    8.801184284614992
+                ],
+                "mean": [
+                    21.793939393939397
+                ],
+                "var": [
+                    77.4608448117539
+                ],
+                "n_samples_seen": 363,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.97441112811413
+                ],
+                "mean": [
+                    22.045454545454547
+                ],
+                "var": [
+                    80.54005509641874
+                ],
+                "n_samples_seen": 363,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.793048480693844
+                ],
+                "mean": [
+                    21.731680440771353
+                ],
+                "var": [
+                    77.31770158383232
+                ],
+                "n_samples_seen": 363,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.214631929385463
+                ],
+                "mean": [
+                    21.760881542699725
+                ],
+                "var": [
+                    67.48017773527916
+                ],
+                "n_samples_seen": 363,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.96605029898974
+                ],
+                "mean": [
+                    21.854945054945055
+                ],
+                "var": [
+                    80.390057964014
+                ],
+                "n_samples_seen": 364,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.718796913577867
+                ],
+                "mean": [
+                    21.83434065934066
+                ],
+                "var": [
+                    76.01741962021494
+                ],
+                "n_samples_seen": 364,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.621630472269283
+                ],
+                "mean": [
+                    21.837637362637363
+                ],
+                "var": [
+                    74.33251200036227
+                ],
+                "n_samples_seen": 364,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.850218142688206
+                ],
+                "mean": [
+                    21.879395604395604
+                ],
+                "var": [
+                    78.32636117316748
+                ],
+                "n_samples_seen": 364,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.882207852532359
+                ],
+                "mean": [
+                    21.840384615384618
+                ],
+                "var": [
+                    78.8936163355875
+                ],
+                "n_samples_seen": 364,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale_y": {
+                "scale": [
+                    8.875356412851163
+                ],
+                "mean": [
+                    21.83956043956044
+                ],
+                "var": [
+                    78.77195145513826
+                ],
+                "n_samples_seen": 364,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "d954e4f8-0675-4d54-a840-c4f0e9de408b",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 193
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "f805c61e-d36c-47ad-a62a-c9c2fd7a00ad",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 132
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "607bf3b4-f730-4d77-8b9f-2cc213d7c020",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 567
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "c223accf-5796-4ede-9d04-7f4ced375463",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 105
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "1ad0c74c-8051-4a85-b608-d5506b713af6",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 135
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "1a341975-7730-41df-8fab-98e661ee540d",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_5",
+            "best_ntree_limit": 295
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "339869aa-d963-42ec-9a09-0d8b8eac010f",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_6",
+            "best_ntree_limit": 209
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "bcebea08-720a-4739-9d8b-cc2741f40dac",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_7",
+            "best_ntree_limit": 262
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "11e34752-c97d-4577-802a-0c3cb70fd22f",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_8",
+            "best_ntree_limit": 58
+        },
+        {
+            "library_version": "0.26.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "9d354e87-8701-4b55-9866-f71d7c9b1413",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "learning_rate": 0.2,
+                "depth": 4,
+                "rsm": 0.6026340876188655,
+                "loss_function": "RMSE",
+                "seed": 10,
+                "eval_metric": "RMSE",
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "min_data_in_leaf": 43,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "explain_level": 0
+            },
+            "name": "learner_fold_9",
+            "best_ntree_limit": 136
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 10,
+            "shuffle": true,
+            "X_path": "AutoML_4/X.data",
+            "y_path": "AutoML_4/y.data",
+            "results_path": "AutoML_4"
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "learning_rate": 0.2,
+            "depth": 4,
+            "rsm": 0.6026340876188655,
+            "loss_function": "RMSE",
+            "seed": 10,
+            "eval_metric": "RMSE",
+            "l2_leaf_reg": 1.5395367389239338,
+            "random_strength": 0.5355597963917901,
+            "min_data_in_leaf": 43,
+            "num_boost_round": 1000,
+            "early_stopping_rounds": 50,
+            "explain_level": 0
+        },
+        "automl_random_state": 10,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "3_Optuna_CatBoost",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "optuna_time_budget": 120,
+        "optuna_init_params": {
+            "original_LightGBM": {
+                "learning_rate": 0.0125,
+                "num_leaves": 486,
+                "lambda_l1": 0.006925639180901979,
+                "lambda_l2": 0.0004500555598864005,
+                "feature_fraction": 0.7499668770201643,
+                "bagging_fraction": 0.8164900229317867,
+                "bagging_freq": 1,
+                "min_data_in_leaf": 5,
+                "extra_trees": false,
+                "metric": "rmse",
+                "custom_eval_metric_name": null,
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "cat_feature": [],
+                "feature_pre_filter": false,
+                "seed": 10
+            },
+            "original_Xgboost": {
+                "eta": 0.0125,
+                "max_depth": 8,
+                "lambda": 0.00789742283515979,
+                "alpha": 3.266185187119584e-06,
+                "colsample_bytree": 0.9439467767716354,
+                "subsample": 0.47732203253202954,
+                "min_child_weight": 2,
+                "objective": "reg:squarederror",
+                "eval_metric": "rmse",
+                "max_rounds": 1000,
+                "early_stopping_rounds": 50,
+                "seed": 10
+            },
+            "original_CatBoost": {
+                "learning_rate": 0.2,
+                "depth": 4,
+                "l2_leaf_reg": 1.5395367389239338,
+                "random_strength": 0.5355597963917901,
+                "rsm": 0.6026340876188655,
+                "min_data_in_leaf": 43,
+                "eval_metric": "RMSE",
+                "num_boost_round": 1000,
+                "early_stopping_rounds": 50,
+                "seed": 10
+            }
+        },
+        "optuna_verbose": true,
+        "max_time_for_learner": 3600
+    },
+    "saved": [
+        "3_Optuna_CatBoost/learner_fold_0.catboost",
+        "3_Optuna_CatBoost/learner_fold_1.catboost",
+        "3_Optuna_CatBoost/learner_fold_2.catboost",
+        "3_Optuna_CatBoost/learner_fold_3.catboost",
+        "3_Optuna_CatBoost/learner_fold_4.catboost",
+        "3_Optuna_CatBoost/learner_fold_5.catboost",
+        "3_Optuna_CatBoost/learner_fold_6.catboost",
+        "3_Optuna_CatBoost/learner_fold_7.catboost",
+        "3_Optuna_CatBoost/learner_fold_8.catboost",
+        "3_Optuna_CatBoost/learner_fold_9.catboost"
+    ],
+    "predictions_fname": "3_Optuna_CatBoost/predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 2.961985304777326,
+    "train_time": 11.565735101699829,
+    "is_stacked": false
+}

@@ -1,0 +1,30 @@
+if (RM <= 6.971) and (LSTAT <= 14.445) and (LSTAT > 7.535) and (RM <= 6.078) then response: 20.121 | based on 56 samples
+
+if (RM <= 6.971) and (LSTAT <= 14.445) and (LSTAT > 7.535) and (RM > 6.078) then response: 22.61 | based on 50 samples
+
+if (RM <= 6.971) and (LSTAT <= 14.445) and (LSTAT <= 7.535) and (DIS > 1.485) then response: 26.002 | based on 47 samples
+
+if (RM <= 6.971) and (LSTAT > 14.445) and (CRIM <= 7.698) and (AGE <= 94.35) then response: 19.076 | based on 37 samples
+
+if (RM <= 6.971) and (LSTAT > 14.445) and (CRIM <= 7.698) and (AGE > 94.35) then response: 15.384 | based on 32 samples
+
+if (RM <= 6.971) and (LSTAT > 14.445) and (CRIM > 7.698) and (LSTAT > 20.2) then response: 9.883 | based on 24 samples
+
+if (RM > 6.971) and (RM <= 7.445) and (CRIM <= 6.135) and (CRIM <= 2.736) then response: 33.736 | based on 22 samples
+
+if (RM <= 6.971) and (LSTAT > 14.445) and (CRIM > 7.698) and (LSTAT <= 20.2) then response: 14.528 | based on 18 samples
+
+if (RM > 6.971) and (RM > 7.445) and (PTRATIO <= 17.9) and (RM > 7.783) then response: 48.1 | based on 8 samples
+
+if (RM > 6.971) and (RM > 7.445) and (PTRATIO <= 17.9) and (RM <= 7.783) then response: 41.867 | based on 3 samples
+
+if (RM > 6.971) and (RM <= 7.445) and (CRIM <= 6.135) and (CRIM > 2.736) then response: 27.4 | based on 2 samples
+
+if (RM > 6.971) and (RM > 7.445) and (PTRATIO > 17.9) and (ZN > 10.0) then response: 35.2 | based on 1 samples
+
+if (RM > 6.971) and (RM > 7.445) and (PTRATIO > 17.9) and (ZN <= 10.0) then response: 38.7 | based on 1 samples
+
+if (RM > 6.971) and (RM <= 7.445) and (CRIM > 6.135) then response: 50.0 | based on 1 samples
+
+if (RM <= 6.971) and (LSTAT <= 14.445) and (LSTAT <= 7.535) and (DIS <= 1.485) then response: 50.0 | based on 1 samples
+

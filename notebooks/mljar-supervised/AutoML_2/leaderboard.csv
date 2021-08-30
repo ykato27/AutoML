@@ -1,0 +1,6 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Linear,Linear,rmse,4.613828770434655,9.9,0.1703
+2_Default_LightGBM,LightGBM,rmse,3.262665705980223,45.53,0.0927
+7_LightGBM,LightGBM,rmse,3.3994410906345958,34.62,0.101
+8_LightGBM,LightGBM,rmse,3.262665705980223,47.73,0.1073
+Ensemble,Ensemble,rmse,3.2003191598559817,0.63,0.2844

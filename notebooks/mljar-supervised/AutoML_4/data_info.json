@@ -1,0 +1,64 @@
+{
+    "columns": [
+        "CRIM",
+        "ZN",
+        "INDUS",
+        "CHAS",
+        "NOX",
+        "RM",
+        "AGE",
+        "DIS",
+        "RAD",
+        "TAX",
+        "PTRATIO",
+        "B",
+        "LSTAT"
+    ],
+    "rows": 404,
+    "cols": 13,
+    "target_is_numeric": true,
+    "columns_info": {
+        "CRIM": [
+            "scale"
+        ],
+        "ZN": [
+            "scale"
+        ],
+        "INDUS": [
+            "scale"
+        ],
+        "CHAS": [],
+        "NOX": [
+            "scale"
+        ],
+        "RM": [
+            "scale"
+        ],
+        "AGE": [
+            "scale"
+        ],
+        "DIS": [
+            "scale"
+        ],
+        "RAD": [
+            "scale"
+        ],
+        "TAX": [
+            "scale"
+        ],
+        "PTRATIO": [
+            "scale"
+        ],
+        "B": [
+            "scale"
+        ],
+        "LSTAT": [
+            "scale"
+        ]
+    },
+    "target_info": [
+        "scale"
+    ],
+    "n_features": 13,
+    "is_sample_weighted": false
+}

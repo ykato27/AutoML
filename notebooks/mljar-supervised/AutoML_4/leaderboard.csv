@@ -1,0 +1,15 @@
+name,model_type,metric_type,metric_value,train_time
+1_Optuna_LightGBM,LightGBM,rmse,3.084995868425189,301.15
+2_Optuna_Xgboost,Xgboost,rmse,3.0866921285310345,39.86
+3_Optuna_CatBoost,CatBoost,rmse,2.961985304777326,13.64
+4_Optuna_NeuralNetwork,Neural Network,rmse,3.5084487652135032,18.11
+5_Optuna_RandomForest,Random Forest,rmse,4.034310493652038,30.16
+6_Optuna_ExtraTrees,Extra Trees,rmse,3.9503968557819196,28.17
+Ensemble,Ensemble,rmse,2.9122400130362727,0.94
+3_Optuna_CatBoost_Stacked,CatBoost,rmse,3.29302824335373,13.98
+1_Optuna_LightGBM_Stacked,LightGBM,rmse,3.1186645875105277,292.27
+2_Optuna_Xgboost_Stacked,Xgboost,rmse,3.18737956421342,46.06
+4_Optuna_NeuralNetwork_Stacked,Neural Network,rmse,4.021280224895077,23.2
+6_Optuna_ExtraTrees_Stacked,Extra Trees,rmse,2.9678975047443568,22.97
+5_Optuna_RandomForest_Stacked,Random Forest,rmse,3.033101281115607,18.9
+Ensemble_Stacked,Ensemble,rmse,2.8874824569024184,1.78

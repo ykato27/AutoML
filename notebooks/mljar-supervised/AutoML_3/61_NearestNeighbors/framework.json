@@ -1,0 +1,218 @@
+{
+    "uid": "4ed5a4aa-d41e-4cd7-a72a-00ae5f26690c",
+    "name": "61_NearestNeighbors",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        9.47204060124067,
+                        23.368967881609795,
+                        7.012367839800638,
+                        0.11859618089571294,
+                        0.6699986142741372,
+                        27.7946180973843,
+                        2.1539292204672082,
+                        8.867041562943726,
+                        171.40689027356854,
+                        2.1328850230744556,
+                        92.71625772724971,
+                        7.076248986893968
+                    ],
+                    "mean": [
+                        4.047567107438017,
+                        11.19146005509642,
+                        11.676033057851239,
+                        0.5590030303030302,
+                        6.227988980716254,
+                        69.33526170798898,
+                        3.7616953168044076,
+                        9.878787878787879,
+                        417.0550964187328,
+                        18.511845730027545,
+                        354.5393388429752,
+                        13.214545454545455
+                    ],
+                    "var": [
+                        89.7195531515517,
+                        546.1086598517102,
+                        49.173302720670264,
+                        0.014065054123048667,
+                        0.44889814312926407,
+                        772.5407951794429,
+                        4.639411086782475,
+                        78.62442607897152,
+                        29380.32203325517,
+                        4.549198521655321,
+                        8596.304446945791,
+                        50.07329972451791
+                    ],
+                    "n_samples_seen": 363,
+                    "n_features_in": 12,
+                    "columns": [
+                        "CRIM",
+                        "ZN",
+                        "INDUS",
+                        "NOX",
+                        "RM",
+                        "AGE",
+                        "DIS",
+                        "RAD",
+                        "TAX",
+                        "PTRATIO",
+                        "B",
+                        "LSTAT"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "CRIM": [
+                        "scale_normal"
+                    ],
+                    "ZN": [
+                        "scale_normal"
+                    ],
+                    "INDUS": [
+                        "scale_normal"
+                    ],
+                    "NOX": [
+                        "scale_normal"
+                    ],
+                    "RM": [
+                        "scale_normal"
+                    ],
+                    "AGE": [
+                        "scale_normal"
+                    ],
+                    "DIS": [
+                        "scale_normal"
+                    ],
+                    "RAD": [
+                        "scale_normal"
+                    ],
+                    "TAX": [
+                        "scale_normal"
+                    ],
+                    "PTRATIO": [
+                        "scale_normal"
+                    ],
+                    "B": [
+                        "scale_normal"
+                    ],
+                    "LSTAT": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.2",
+            "algorithm_name": "k-Nearest Neighbors",
+            "algorithm_short_name": "Nearest Neighbors",
+            "uid": "4e32888a-01d9-4bb1-946f-35e77840ff04",
+            "params": {
+                "model_type": "Nearest Neighbors",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 11,
+                "n_neighbors": 3,
+                "weights": "distance",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": 100000,
+            "max_cols_limit": 100
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "CRIM": [
+                    "scale_normal"
+                ],
+                "ZN": [
+                    "scale_normal"
+                ],
+                "INDUS": [
+                    "scale_normal"
+                ],
+                "NOX": [
+                    "scale_normal"
+                ],
+                "RM": [
+                    "scale_normal"
+                ],
+                "AGE": [
+                    "scale_normal"
+                ],
+                "DIS": [
+                    "scale_normal"
+                ],
+                "RAD": [
+                    "scale_normal"
+                ],
+                "TAX": [
+                    "scale_normal"
+                ],
+                "PTRATIO": [
+                    "scale_normal"
+                ],
+                "B": [
+                    "scale_normal"
+                ],
+                "LSTAT": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_3/X.data",
+            "y_path": "AutoML_3/y.data",
+            "results_path": "AutoML_3"
+        },
+        "learner": {
+            "model_type": "Nearest Neighbors",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 11,
+            "n_neighbors": 3,
+            "weights": "distance",
+            "explain_level": 0
+        },
+        "automl_random_state": 10,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "61_NearestNeighbors",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "61_NearestNeighbors/learner_fold_0.k_neighbors"
+    ],
+    "predictions_fname": "61_NearestNeighbors/predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": 5.402386048628191,
+    "train_time": 1.1421558856964111,
+    "is_stacked": false
+}

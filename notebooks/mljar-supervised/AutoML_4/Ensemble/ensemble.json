@@ -1,0 +1,24 @@
+{
+    "name": "Ensemble",
+    "ml_task": "regression",
+    "optimize_metric": "rmse",
+    "selected_models": [
+        {
+            "model": "1_Optuna_LightGBM",
+            "repeat": 1.0
+        },
+        {
+            "model": "3_Optuna_CatBoost",
+            "repeat": 4.0
+        },
+        {
+            "model": "4_Optuna_NeuralNetwork",
+            "repeat": 1.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "rmse",
+    "final_loss": 2.9122400130362727,
+    "train_time": 0.9358956813812256,
+    "is_stacked": false
+}

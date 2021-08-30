@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "B",
+            "feature2": "LSTAT",
+            "operation": "ratio",
+            "score": 0.342804252
+        },
+        {
+            "feature1": "LSTAT",
+            "feature2": "PTRATIO",
+            "operation": "sum",
+            "score": 0.3481286817
+        },
+        {
+            "feature1": "LSTAT",
+            "feature2": "B",
+            "operation": "ratio",
+            "score": 0.3521369762
+        },
+        {
+            "feature1": "LSTAT",
+            "feature2": "DIS",
+            "operation": "sum",
+            "score": 0.3577993064
+        },
+        {
+            "feature1": "RM",
+            "feature2": "LSTAT",
+            "operation": "diff",
+            "score": 0.3688844238
+        },
+        {
+            "feature1": "LSTAT",
+            "feature2": "RM",
+            "operation": "ratio",
+            "score": 0.3780258105
+        },
+        {
+            "feature1": "RM",
+            "feature2": "LSTAT",
+            "operation": "ratio",
+            "score": 0.3838409618
+        },
+        {
+            "feature1": "CHAS",
+            "feature2": "LSTAT",
+            "operation": "diff",
+            "score": 0.3885111565
+        },
+        {
+            "feature1": "LSTAT",
+            "feature2": "CHAS",
+            "operation": "sum",
+            "score": 0.4304395388
+        },
+        {
+            "feature1": "LSTAT",
+            "feature2": "TAX",
+            "operation": "multiply",
+            "score": 0.4311746259
+        }
+    ],
+    "new_columns": [
+        "B_ratio_LSTAT",
+        "LSTAT_sum_PTRATIO",
+        "LSTAT_ratio_B",
+        "LSTAT_sum_DIS",
+        "RM_diff_LSTAT",
+        "LSTAT_ratio_RM",
+        "RM_ratio_LSTAT",
+        "CHAS_diff_LSTAT",
+        "LSTAT_sum_CHAS",
+        "LSTAT_multiply_TAX"
+    ],
+    "ml_task": "regression"
+}
