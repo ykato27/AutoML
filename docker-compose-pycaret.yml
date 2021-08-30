@@ -1,7 +1,11 @@
 version: "3"
 services:
-  jupyter:
-    build: .
+  pycaret:
+    container_name: pycaret
+    image: pycaret:1.0
+    build:
+      context: ./docker
+      dockerfile: ./pycaret/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work

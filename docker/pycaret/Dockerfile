@@ -41,8 +41,7 @@ RUN rm -rf $PYENV_ROOT
 
 RUN pip install --upgrade pip
 
-COPY requirements.txt ./
+COPY ./pycaret/requirements.txt ./
 RUN pip install -r requirements.txt
-RUN pip install nb_black
 
 WORKDIR home/work
