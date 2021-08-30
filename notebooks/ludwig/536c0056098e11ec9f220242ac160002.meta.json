@@ -1,0 +1,72 @@
+{
+    "Acceleration": {
+        "mean": 15.607860565185547,
+        "preprocessing": {
+            "computed_fill_value": 15.607860565185547,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 2.8110363483428955
+    },
+    "Cylinders": {
+        "mean": 5.421383857727051,
+        "preprocessing": {
+            "computed_fill_value": 5.421383857727051,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 1.7068562507629395
+    },
+    "Displacement": {
+        "mean": 191.789306640625,
+        "preprocessing": {
+            "computed_fill_value": 191.789306640625,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 104.48809814453125
+    },
+    "Horsepower": {
+        "mean": 103.88179016113281,
+        "preprocessing": {
+            "computed_fill_value": 103.88179016113281,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 37.689693450927734
+    },
+    "MPG": {
+        "preprocessing": {
+            "computed_fill_value": 0,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": null
+        }
+    },
+    "ModelYear": {
+        "mean": 75.96855163574219,
+        "preprocessing": {
+            "computed_fill_value": 75.96855163574219,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 3.6999809741973877
+    },
+    "Weight": {
+        "mean": 2955.1572265625,
+        "preprocessing": {
+            "computed_fill_value": 2955.1572265625,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 846.9943237304688
+    },
+    "checksum": "536c0056-098e-11ec-9f22-0242ac160002",
+    "data_train_hdf5_fp": "./536c0056098e11ec9f220242ac160002.training.hdf5"
+}

@@ -1,6 +1,6 @@
-# AutoML-PyCaret
+# AutoML
 
-- AutoML-PyCaret を活用した回帰モデル全般のプログラム
+- テーブルデータを対象としたAutoML のexample リポジトリ
 
 ## リポジトリ構成
 ```
@@ -15,24 +15,20 @@
 
 ## 環境構築
 
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/AutoML-PyCaret）
+- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/AutoML）
 
 ```
-cd Desktop/AutoML-PyCaret
+cd Desktop/AutoML
 ```
 
-- Dockerによる環境構築（フォルダをマウント：Desktop/AutoML-PyCaret）
+- Dockerによる環境構築（フォルダをマウント：Desktop/AutoML）
 
 ```
-docker-compose up --build
+docker-compose -f docker-compose-{*構築対象}.yml up --build
 ```
 
 - ブラウザーを立ち上げてlocalhost:8888へアクセス
 - ローカルフォルダがマウントされている
-
-## jupyter notebook説明
-
-- [AutoML-PyCaret-RegressionModels.ipynb](https://github.com/ykato27/AutoML-PyCaret/blob/main/notebook/AutoML-PyCaret-RegressionModels.ipynb) : PyCaretを活用したAutoMLのnotebook
 
 ## 動作環境
 

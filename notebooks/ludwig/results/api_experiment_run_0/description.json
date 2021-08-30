@@ -1,0 +1,234 @@
+{
+    "command": "/tmp/Python/python-3.9.6/lib/python3.9/site-packages/ipykernel_launcher.py -f /root/.local/share/jupyter/runtime/kernel-a1e80bcf-7667-49d6-9779-cd73a345e29a.json",
+    "commit_hash": "5fbe1584e0ee",
+    "config": {
+        "combiner": {
+            "type": "concat"
+        },
+        "input_features": [
+            {
+                "column": "Cylinders",
+                "name": "Cylinders",
+                "preprocessing": {
+                    "missing_value_strategy": "fill_with_mean",
+                    "normalization": "zscore"
+                },
+                "proc_column": "Cylinders__XIy8d",
+                "tied": null,
+                "type": "numerical"
+            },
+            {
+                "column": "Displacement",
+                "name": "Displacement",
+                "preprocessing": {
+                    "missing_value_strategy": "fill_with_mean",
+                    "normalization": "zscore"
+                },
+                "proc_column": "Displacement__XIy8d",
+                "tied": null,
+                "type": "numerical"
+            },
+            {
+                "column": "Horsepower",
+                "name": "Horsepower",
+                "preprocessing": {
+                    "missing_value_strategy": "fill_with_mean",
+                    "normalization": "zscore"
+                },
+                "proc_column": "Horsepower__XIy8d",
+                "tied": null,
+                "type": "numerical"
+            },
+            {
+                "column": "Weight",
+                "name": "Weight",
+                "preprocessing": {
+                    "missing_value_strategy": "fill_with_mean",
+                    "normalization": "zscore"
+                },
+                "proc_column": "Weight__XIy8d",
+                "tied": null,
+                "type": "numerical"
+            },
+            {
+                "column": "Acceleration",
+                "name": "Acceleration",
+                "preprocessing": {
+                    "missing_value_strategy": "fill_with_mean",
+                    "normalization": "zscore"
+                },
+                "proc_column": "Acceleration__XIy8d",
+                "tied": null,
+                "type": "numerical"
+            },
+            {
+                "column": "ModelYear",
+                "name": "ModelYear",
+                "preprocessing": {
+                    "missing_value_strategy": "fill_with_mean",
+                    "normalization": "zscore"
+                },
+                "proc_column": "ModelYear__XIy8d",
+                "tied": null,
+                "type": "numerical"
+            }
+        ],
+        "output_features": [
+            {
+                "clip": null,
+                "column": "MPG",
+                "dependencies": [],
+                "fc_size": 64,
+                "loss": {
+                    "type": "mean_squared_error",
+                    "weight": 1
+                },
+                "name": "MPG",
+                "num_fc_layers": 2,
+                "proc_column": "MPG_mZFLky",
+                "reduce_dependencies": "sum",
+                "reduce_input": "sum",
+                "type": "numerical"
+            }
+        ],
+        "preprocessing": {
+            "audio": {
+                "audio_feature": {
+                    "type": "raw"
+                },
+                "audio_file_length_limit_in_s": 7.5,
+                "in_memory": true,
+                "missing_value_strategy": "backfill",
+                "norm": null,
+                "padding_value": 0
+            },
+            "bag": {
+                "fill_value": "<UNK>",
+                "lowercase": false,
+                "missing_value_strategy": "fill_with_const",
+                "most_common": 10000,
+                "tokenizer": "space"
+            },
+            "binary": {
+                "fill_value": 0,
+                "missing_value_strategy": "fill_with_const"
+            },
+            "category": {
+                "fill_value": "<UNK>",
+                "lowercase": false,
+                "missing_value_strategy": "fill_with_const",
+                "most_common": 10000
+            },
+            "date": {
+                "datetime_format": null,
+                "fill_value": "",
+                "missing_value_strategy": "fill_with_const"
+            },
+            "force_split": false,
+            "h3": {
+                "fill_value": 576495936675512319,
+                "missing_value_strategy": "fill_with_const"
+            },
+            "image": {
+                "in_memory": true,
+                "missing_value_strategy": "backfill",
+                "num_processes": 1,
+                "resize_method": "interpolate",
+                "scaling": "pixel_normalization"
+            },
+            "numerical": {
+                "fill_value": 0,
+                "missing_value_strategy": "fill_with_const",
+                "normalization": null
+            },
+            "sequence": {
+                "fill_value": "<UNK>",
+                "lowercase": false,
+                "missing_value_strategy": "fill_with_const",
+                "most_common": 20000,
+                "padding": "right",
+                "padding_symbol": "<PAD>",
+                "sequence_length_limit": 256,
+                "tokenizer": "space",
+                "unknown_symbol": "<UNK>",
+                "vocab_file": null
+            },
+            "set": {
+                "fill_value": "<UNK>",
+                "lowercase": false,
+                "missing_value_strategy": "fill_with_const",
+                "most_common": 10000,
+                "tokenizer": "space"
+            },
+            "split_probabilities": [
+                0.7,
+                0.1,
+                0.2
+            ],
+            "stratify": null,
+            "text": {
+                "char_most_common": 70,
+                "char_sequence_length_limit": 1024,
+                "char_tokenizer": "characters",
+                "char_vocab_file": null,
+                "fill_value": "<UNK>",
+                "lowercase": true,
+                "missing_value_strategy": "fill_with_const",
+                "padding": "right",
+                "padding_symbol": "<PAD>",
+                "pretrained_model_name_or_path": null,
+                "unknown_symbol": "<UNK>",
+                "word_most_common": 20000,
+                "word_sequence_length_limit": 256,
+                "word_tokenizer": "space_punct",
+                "word_vocab_file": null
+            },
+            "timeseries": {
+                "fill_value": "",
+                "missing_value_strategy": "fill_with_const",
+                "padding": "right",
+                "padding_value": 0,
+                "timeseries_length_limit": 256,
+                "tokenizer": "space"
+            },
+            "vector": {
+                "fill_value": "",
+                "missing_value_strategy": "fill_with_const"
+            }
+        },
+        "training": {
+            "batch_size": 32,
+            "bucketing_field": null,
+            "decay": false,
+            "decay_rate": 0.96,
+            "decay_steps": 10000,
+            "early_stop": 5,
+            "epochs": 100,
+            "eval_batch_size": 0,
+            "gradient_clipping": null,
+            "increase_batch_size_on_plateau": 0,
+            "increase_batch_size_on_plateau_max": 512,
+            "increase_batch_size_on_plateau_patience": 5,
+            "increase_batch_size_on_plateau_rate": 2,
+            "learning_rate": 0.001,
+            "learning_rate_warmup_epochs": 1,
+            "optimizer": {
+                "beta_1": 0.9,
+                "beta_2": 0.999,
+                "epsilon": 1e-08,
+                "type": "adam"
+            },
+            "reduce_learning_rate_on_plateau": 0,
+            "reduce_learning_rate_on_plateau_patience": 5,
+            "reduce_learning_rate_on_plateau_rate": 0.5,
+            "regularization_lambda": 0,
+            "staircase": false,
+            "validation_field": "combined",
+            "validation_metric": "loss"
+        }
+    },
+    "data_format": "<class 'pandas.core.frame.DataFrame'>",
+    "ludwig_version": "0.4",
+    "random_seed": 42,
+    "tf_version": "2.6.0"
+}

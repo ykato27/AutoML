@@ -1,0 +1,142 @@
+{
+    "AGE": {
+        "mean": 69.21807098388672,
+        "preprocessing": {
+            "computed_fill_value": 69.21807098388672,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 27.955163955688477
+    },
+    "B": {
+        "mean": 353.5539245605469,
+        "preprocessing": {
+            "computed_fill_value": 353.5539245605469,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 95.48313903808594
+    },
+    "CHAS": {
+        "mean": 0.06683168560266495,
+        "preprocessing": {
+            "computed_fill_value": 0.06683168560266495,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 0.2500399053096771
+    },
+    "CRIM": {
+        "mean": 3.909295082092285,
+        "preprocessing": {
+            "computed_fill_value": 3.909295082092285,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 9.096070289611816
+    },
+    "DIS": {
+        "mean": 3.7612900733947754,
+        "preprocessing": {
+            "computed_fill_value": 3.7612900733947754,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 2.131901979446411
+    },
+    "INDUS": {
+        "mean": 11.546039581298828,
+        "preprocessing": {
+            "computed_fill_value": 11.546039581298828,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 6.963179111480713
+    },
+    "LSTAT": {
+        "mean": 13.062276840209961,
+        "preprocessing": {
+            "computed_fill_value": 13.062276840209961,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 7.062023639678955
+    },
+    "MEDV": {
+        "preprocessing": {
+            "computed_fill_value": 0,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_const",
+            "normalization": null
+        }
+    },
+    "NOX": {
+        "mean": 0.5586707592010498,
+        "preprocessing": {
+            "computed_fill_value": 0.5586707592010498,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 0.11777134239673615
+    },
+    "PTRATIO": {
+        "mean": 18.550989151000977,
+        "preprocessing": {
+            "computed_fill_value": 18.550989151000977,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 2.1420116424560547
+    },
+    "RAD": {
+        "mean": 9.935643196105957,
+        "preprocessing": {
+            "computed_fill_value": 9.935643196105957,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 8.92821216583252
+    },
+    "RM": {
+        "mean": 6.239109039306641,
+        "preprocessing": {
+            "computed_fill_value": 6.239109039306641,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 0.6720255613327026
+    },
+    "TAX": {
+        "mean": 417.232666015625,
+        "preprocessing": {
+            "computed_fill_value": 417.232666015625,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 172.2154998779297
+    },
+    "ZN": {
+        "mean": 11.24628734588623,
+        "preprocessing": {
+            "computed_fill_value": 11.24628734588623,
+            "fill_value": 0,
+            "missing_value_strategy": "fill_with_mean",
+            "normalization": "zscore"
+        },
+        "std": 23.750864028930664
+    },
+    "checksum": "1f1a89b2-098e-11ec-9c0e-0242ac160002",
+    "data_train_hdf5_fp": "./1f1a89b2098e11ec9c0e0242ac160002.training.hdf5"
+}
