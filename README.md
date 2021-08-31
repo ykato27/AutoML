@@ -116,3 +116,5 @@ docker-compose -f docker-compose-{*構築対象}.yml up --build
 - MacBook Air (Retina, 13-inch, 2018)
 - 1.6 GHz デュアルコアIntel Core i5
 - 8 GB 2133 MHz LPDDR3
+
+- Google Colab
